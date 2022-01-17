@@ -28,7 +28,7 @@ The datasets consists of several medical predictor variables and one target vari
 
 ### Approach:  
 
-1	Perform descriptive analysis. It is very important to understand the variables and corresponding values. We need to think through - Can minimum value of below listed columns be zero (0)? On these columns, a value of zero does not make sense and thus indicates missing value.
+1.	Perform descriptive analysis. It is very important to understand the variables and corresponding values. We need to think through - Can minimum value of below listed columns be zero (0)? On these columns, a value of zero does not make sense and thus indicates missing value.
 * Glucose
 * BloodPressure
 * SkinThickness
@@ -36,23 +36,23 @@ The datasets consists of several medical predictor variables and one target vari
 * BMI 
 </br>Decide how to treat the zero values in these columns
 
-2	Visually explore these variable and look for the distribution of these variables using histograms. Treat the missing values accordingly.
+2.	Visually explore these variable and look for the distribution of these variables using histograms. Treat the missing values accordingly.
 
-3	There are integer as well as float data-type of variables in this dataset. Create a count (frequency) plot describing the data types and the count of variables. 
+3.	There are integer as well as float data-type of variables in this dataset. Create a count (frequency) plot describing the data types and the count of variables. 
 
-4 Check the balance of the data (to review imbalanced classes for the classification problem) by plotting the count of outcomes by their value. Review findings and plan future course of actions.
+4. Check the balance of the data (to review imbalanced classes for the classification problem) by plotting the count of outcomes by their value. Review findings and plan future course of actions.
 
-5	Create scatter charts between the pair of variables to understand the relationships. Describe findings.
+5.	Create scatter charts between the pair of variables to understand the relationships. Describe findings.
 
-6	Perform correlation analysis. Visually explore it using a heat map.
+6.	Perform correlation analysis. Visually explore it using a heat map.
 
-7	Devise strategies for model building. It is important to decide the right validation framework. Would Cross validation be useful in this scenario?
+7.	Devise strategies for model building. It is important to decide the right validation framework. Would Cross validation be useful in this scenario?
 
-8	Apply an appropriate classification algorithm to build a model. Compare various models with the results from KNN.
+8.	Apply an appropriate classification algorithm to build a model. Compare various models with the results from KNN.
 
-9	Create a classification report by analysing sensitivity, specificity, AUC(ROC curve) etc. Decide what values of these parameter to settle for? any why?
+9.	Create a classification report by analysing sensitivity, specificity, AUC(ROC curve) etc. Decide what values of these parameter to settle for? any why?
 
-10 Dashboard in tableau by choosing appropriate chart types and metrics useful for the business. The dashboard must entail the following:    
+10. Dashboard in tableau by choosing appropriate chart types and metrics useful for the business. The dashboard must entail the following:    
   * Pie chart to describe the diabetic/non-diabetic population
   * Scatter charts between relevant variables to analyse the relationships
   * Histogram/frequency charts to analyse the distribution of the data
