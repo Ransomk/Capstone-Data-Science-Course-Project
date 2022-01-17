@@ -1,5 +1,8 @@
 # Capstone Data Science Course Project - Healthcare - Diabetes Detection
 
+### Summary:
+This was a comprehensive project completed as part of the Data Science PG Programme. This covers classification algorithms over a dataset collected on health/diagnostic variables to predict of a person has diabetes or not based on the data points. Apart from extensive EDA to understand the distribution and other aspects of the data. Pre-processing was done to identify data which was missing or did not make sense within certain columns and imputation techniques were deployed to treat missing values. For classification the balance of classes was also reviewed and treated using SMOTE. Finally models were built and compared for accuracy on various metrics.Lastly the project contains a dashboard on the original data using Tableau
+
 ### Note:_This is an academic project completed by me as part of my PG Data Science programme_
 
 ### Context:
